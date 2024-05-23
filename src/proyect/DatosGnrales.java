@@ -17,7 +17,7 @@ public abstract class DatosGnrales
     private String correo;
     private char nivel;
     private String claveGrupo;
-    private double precio = 950;
+    private double precio = 500;
 
     public DatosGnrales(String nombre, String direccion, String telefono, String correo, char nivel, String claveGrupo)
     {

@@ -10,7 +10,7 @@ package proyect;
  */
 public class Externos extends DatosGnrales {
 
-    private int consecutivo;
+    private static int consecutivo=1;
     private String folio;
     private int edad;
 
@@ -40,6 +40,11 @@ public class Externos extends DatosGnrales {
 
     public void setEdad(int edad) {
         this.edad = edad;
+    }
+
+    public static void setConsecutivo(int consecutivo)
+    {
+        Externos.consecutivo = consecutivo;
     }
 
     @Override
